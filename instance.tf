@@ -1,7 +1,7 @@
 
 
 resource "aws_instance" "saba-instance" {
-  count                  = 1
+  count                  = 2
   ami                    = "ami-0af25d0df86db00c1"
   instance_type          = "t3.micro"
   availability_zone      = "ap-south-1c"
